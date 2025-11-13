@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&family=Yellowtail&display=swap');
+.tesla h1{
+    font-family: 'Yellowtail', cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+.tesla{
+    background: linear-gradient(to right,#f6d365,#fda085);
+    width: 30%;
+}
+.tesla span{
+    text-decoration: double underline;
+}
+.tesla p{
+    letter-spacing: 12px;
+    line-height: 20px;
+    font-size: 16px;
+}
+.kosmos{
+    background-image: url(./image/download.jpg);
+    width: 43%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kosmos h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+}
+.kosmos p{
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    /* manda Franklin Gothic Medium  chiqmadi */
+}
