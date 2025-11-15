@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(to right, lightblue, lightgreen);
+}
+.cars{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 80px;
+    height: 200px;
+}
+.car{
+    display: inline-block;
+    width: 28%;
+    background-color: khaki;
+    margin-left: 40px;
+}
+.car img{
+    width: 100%;
+
+}
+.tittle h1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 40px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: start;
+}
+
+.tittle p {
+    text-align: center;
+    padding: 10px 40px;
+    padding-bottom: 20px;
+}
+.input{
+    text-align: center;
+}
+.input button {
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px 16px;
+    background-color: aquamarine;
+}
